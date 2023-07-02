@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <form id="Contact Form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <button type="button" id="submit-button" onclick="formSubmit()">Submit</button>
+        </form>
+        <script>
+            function formSubmit(){
+                    alert("Email Submitted: "+document.getElementById('email').value);
+                
+            }
+        </script>
+    </body>
+</html>
